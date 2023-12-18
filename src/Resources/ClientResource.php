@@ -45,9 +45,6 @@ class ClientResource extends Resource
                         Forms\Components\TextInput::make('phone')
                             ->label(__('filament-timesheet::client.phone'))
                             ->maxLength(255),
-                        Forms\Components\TextInput::make('email')
-                            ->label(__('filament-timesheet::client.email'))
-                            ->maxLength(255),
                     ])->columns(2),
 
                 Section::make(__('filament-timesheet::client.registration_details'))
